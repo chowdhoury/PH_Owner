@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image.jpeg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    font-size: 60px;
+    color: whitesmoke;
+    margin: 20px;
+    border-radius: 10px;
+}
+div{
+    margin: 20px;
+    background-color: rgba(0, 255, 255, 0.2);
+    /* opacity: 0.2; */
+    font-size: 26px;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+form{
+    width: max-content;
+    margin: auto;
+}
+select,option{
+    font-size: 18px;
+}
