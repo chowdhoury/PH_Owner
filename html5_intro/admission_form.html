@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daffodil International University</title>
+    <style>
+      footer p {
+        text-align: center;
+      }
+      header h2 {
+        text-align: center;
+        font-size: 48px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      main{ border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        background-color: aqua;
+      }
+      header h3{
+        text-align: center;
+      }
+      #male, #female, #pay, #term{
+        display: inline;
+      }
+      .basic label{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Daffodil International University</h2>
+    </header>
+    <main>
+        <section>
+            <header>
+                <h3>Admission Form Fall-2025</h3>
+            </header>
+            <form action="" class="basic">
+                <fieldset>
+                    <legend>Basics Info</legend>
+                    <label for="name">Your Name</label>
+                    <input type="text" name="" id="name">
+                    <label for="fname">Father's Name</label>
+                    <input type="text" name="" id="fname">
+                    <label for="mname">Mother's Name</label>
+                    <input type="text" name="" id="mname">
+                    <label for="dob">DOB</label>
+                    <input type="date" name="" id="">
+                    <label for="photo">Photo</label>
+                    <input type="file" name="" id="photo">
+                    <label for="gender">Gender</label>
+                    <input type="radio" name="gender" id="male">
+                    <label id="male" for="male">Male</label>
+                    <input type="radio" name="gender" id="fmale">
+                    <label id="female" for="fmale">Female</label>
+                    <label for="preaddress">Present Address</label>
+                    <textarea name="" id="preaddress" cols="35"></textarea>
+                    <label for="perassress">Permanent Address</label>
+                    <textarea name="" id="" cols="35"></textarea>
+                    <label for="phone">Phone</label>
+                    <input type="phone" name="" id="phone">
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email">
+                </fieldset>
+                <fieldset>
+                    <legend>Education</legend>
+                    <fieldset>
+                        <legend>SSC</legend>
+                        <label for="roll">Roll</label>
+                        <input type="number" id="roll">
+                        <label for="reg">Registration</label>
+                        <input type="number" name="" id="reg">
+                        <label for="board">Board</label>
+                        <select name="board" id="">
+                            <option value="select">Select</option>
+                            <option value="jessore">Jessore</option>
+                            <option value="dhaka">Dhaka</option>
+                            <option value="rajshahi">Rajshahi</option>
+                        </select>
+                    </fieldset>
+                    <fieldset style="margin-top: 15px;">
+                        <legend>HSC</legend>
+                        <label for="roll">Roll</label>
+                        <input type="number" id="roll">
+                        <label for="reg">Registration</label>
+                        <input type="number" name="" id="reg">
+                        <label for="board">Board</label>
+                        <select name="board" id="">
+                            <option value="select">Select</option>
+                            <option value="jessore">Jessore</option>
+                            <option value="dhaka">Dhaka</option>
+                            <option value="rajshahi">Rajshahi</option>
+                        </select>
+                    </fieldset>
+                </fieldset>
+                <input type="checkbox" name="term" id="term">
+                <label id="term" for="term">Agreed with the term</label><br>
+                <input type="checkbox" name="pay" id="pay">
+                <label id="pay" for="pay">Paid the necessary fee</label><br>
+                <input type="submit" name="" id="" value="Confirm">
+                <input type="reset" value="Clear" name="" id="">
+            </form>
+        </section>
+    </main>
+    <footer>
+      <p>
+        <small
+          >&copy;2025 All right reserved Daffodil International
+          University</small
+        >
+      </p>
+    </footer>
+  </body>
+</html>
