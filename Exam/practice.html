@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function processAndConcat(srg1,srg2){
+          let s1=srg1.trim().toUpperCase();
+          let s2=srg2.trim().toLowerCase();
+          let s3="";
+          for(let i=0;i<s1.length;i++)
+      {
+          if(s1[i]==" ") s3+="_";
+          else s3+=s1[i];
+      }
+      s3+="-";
+      for(let i=0;i<s2.length;i++)
+      {
+          if(s2[i]==" ") s3+="_";
+          else s3+=s2[i];
+      }
+      return s3;
+      }
+
+      console.log(processAndConcat(" hello world"," raihan Chowdhoury "));
+    </script>
+  </body>
+</html>
