@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .container div{
+            height: 100px;
+            border: 2px solid tomato;
+            font-size: 3em;
+            /* display: inline; */
+            width: 200px;
+        }
+        .box-container{
+            display: flex;
+            gap: 10px;
+        }
+        .box-container .box{
+            border: 1px solid red;
+            padding: 10px;
+            font-size: 2em;
+        }
+        .user{
+            border: 1px solid red;
+            height: 50px;
+            width: 100px;
+            font-size: 1.5em;
+            display: inline-block;
+        }
+        .user-container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .user-contain{
+            /* display: flex; */
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <div class="box-container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+    <div class="user-container">
+        <div class="user">User-1</div>
+        <div class="user">User-2</div>
+        <div class="user">User-3</div>
+    </div>
+    <div class="user-contain">
+        <div class="user">User-1</div>
+        <div class="user">User-2</div>
+        <div class="user">User-3</div>
+        <div class="user">User-4</div>
+        <div class="user">User-5</div>
+        <div class="user">User-6</div>
+        <div class="user">User-7</div>
+        <div class="user">User-8</div>
+        <div class="user">User-9</div>
+        <div class="user">User-10</div>
+        <div class="user">User-11</div>
+        <div class="user">User-12</div>
+        <div class="user">User-13</div>
+        <div class="user">User-14</div>
+        <div class="user">User-15</div>
+    </div>
+</body>
+</html>
